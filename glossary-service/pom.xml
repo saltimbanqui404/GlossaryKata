@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.kata</groupId>
-	<artifactId>glossary-service</artifactId>
+	<artifactId>glossary</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>glossary-service</name>
+	<name>glossary</name>
 	<description>Aikido Kata Dictionary</description>
 	<url/>
 	<licenses>
