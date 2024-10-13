@@ -1,4 +1,4 @@
-package com.kata.glossary_service;
+package com.kata.glossary;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

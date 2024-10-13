@@ -1,4 +1,4 @@
-package com.kata.glossary_service.domain;
+package com.kata.glossary.domain;
 
 public interface ClassDomainRepository {
 }
