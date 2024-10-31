@@ -74,7 +74,6 @@ public class KataRestController {
                 .sorted(Comparator.comparing(Kata::getRank))
                 .findFirst()
                 .map(ResponseEntity::ok)
-                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND,"No se encontró un listado valido"));
-        // mirando excepciones -> https://www.baeldung.com/exception-handling-for-rest-with-spring
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Ranks from Katas are not allowed to compare"));
     }
 }

@@ -5,11 +5,9 @@ import com.kata.glossary.domain.Kata;
 import com.kata.glossary.domain.KataRepository;
 import com.kata.glossary.infrastructure.persistence.KataEntity;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class KataServiceImpl implements KataService {
